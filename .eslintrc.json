@@ -1,0 +1,94 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "requireConfigFile": false,
+        "ecmaVersion": 12,
+        "sourceType": "module",
+        "babelOptions": {
+            "presets": [
+                "@babel/preset-react"
+            ]
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
+        "plugin:prettier/recommended",
+        "plugin:import/react"
+    ],
+    "plugins": [
+        "react",
+        "import"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ],
+                "moduleDirectory": [
+                    "node_modules",
+                    "src"
+                ]
+            }
+        }
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-trailing-spaces": "error",
+        "no-console": "error",
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_"
+            }
+        ],
+        "react/no-unescaped-entities": "off",
+        "react/require-default-props": "error",
+        "sort-imports": [
+            "error",
+            {
+                "ignoreCase": true,
+                "ignoreDeclarationSort": true
+            }
+        ],
+        "import/no-unresolved": [
+            "error",
+            {
+                "commonjs": true,
+                "amd": true
+            }
+        ],
+        "import/named": "error",
+        "import/namespace": "error",
+        "import/default": "error",
+        "import/export": "error"
+    }
+}

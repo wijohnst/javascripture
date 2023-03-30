@@ -1,7 +1,12 @@
 import "./App.css";
+import Layout from "Layout";
 
 function App() {
-  return <span>JavaScripture</span>;
+  return (
+    <Layout>
+      <h1>This is a test</h1>
+    </Layout>
+  );
 }
 
 export default App;

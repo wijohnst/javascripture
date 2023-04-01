@@ -18,9 +18,6 @@ module.exports = {
       xxl: "1512px",
       // => @media (min-width: 1536px) { large-laptop }
     },
-    container: {
-      center: true,
-    },
     extend: {
       colors: {
         blue: "#3F379F",

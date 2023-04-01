@@ -72,6 +72,8 @@
         ],
         "react/no-unescaped-entities": "off",
         "react/require-default-props": "error",
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "react/prop-types": "off",
         "sort-imports": [
             "error",

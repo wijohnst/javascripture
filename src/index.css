@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root,
-html,
-body {
-  background-color: #3f379f;
+:root {
+  margin: 10px 10px 40px 10px;
 }

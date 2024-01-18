@@ -34,7 +34,7 @@ export default function LogoBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Search God's Word
+            Translate God's Word
           </Typography>
         </Toolbar>
       </AppBar>

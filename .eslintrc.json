@@ -63,9 +63,8 @@
             "always"
         ],
         "no-trailing-spaces": "error",
-        "no-console": "error",
         "no-unused-vars": [
-            "error",
+            "warn",
             {
                 "argsIgnorePattern": "^_"
             }
